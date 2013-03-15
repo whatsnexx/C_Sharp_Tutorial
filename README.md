@@ -3,9 +3,11 @@ Send Events Using C#
 
 Describes how to send an event through the Whatsnexx.TicketBus from a Console application in Visual Studio.
 
+<h5>View examples in <a href="https://github.com/whatsnexx/PHP_Tutorial">PHP</a> and <a href="https://github.com/whatsnexx/Java_Tutorial">Java</a>.</h5>
+
 Getting Started
 ------------------
-The whatsnexx [ticketbus](https://github.com/whatsnexx/Whatsnexx/wiki/TicketBus) handles REST and SOAP Web Service request to send events. In this example, we will demonstrate how to send and event to the Whatsnexx ticketbus using a WCF client. If you are not familiar with WCF, the MSDN documentation can be found [here](http://msdn.microsoft.com/en-us/library/dd456779.aspx). You will need following to send a request to the [ticketbus](https://github.com/whatsnexx/Whatsnexx/wiki/TicketBus) service.
+The whatsnexx [ticketbus](https://github.com/whatsnexx/whatsnexx.github.com/wiki/7.-Ticket-Bus-Introduction) handles REST and SOAP Web Service request to send events. In this example, we will demonstrate how to send and event to the Whatsnexx ticketbus using a WCF client. If you are not familiar with WCF, the MSDN documentation can be found [here](http://msdn.microsoft.com/en-us/library/dd456779.aspx). You will need following to send a request to the [ticketbus](https://github.com/whatsnexx/whatsnexx.github.com/wiki/7.-Ticket-Bus-Introduction) service.
 <table width="100%" border="1px">
 <tr><th align="left">Attribute</th><th align="left">Type</th><th align="left">Description</th></tr>
 <tr><td>Account Id</td><td>GUID</td><td> Provided by Whatsnexx.</td></tr>
@@ -103,10 +105,10 @@ namespace CSharpExample
 
 Getting Help
 -----------
-[Whatsnexx Full Documentation]()  Available Soon  
-[MSDN](http://msdn.microsoft.com/en-us/library/dd456779.aspx)
+[Whatsnexx Full Documentation](http://whatsnexx.github.com/)      
+[MSDN: Windows Communication Foundation (WCF)](http://msdn.microsoft.com/en-us/library/dd456779.aspx)
 
 
 *****
-[Top](https://github.com/paulsmelser/PHP-Send-Event/blob/master/README.md#send-events-using-php)
+[Top](#)
 
